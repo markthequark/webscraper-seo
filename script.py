@@ -11,12 +11,13 @@ from selenium.webdriver.support import expected_conditions as EC
 
 def main() -> int:
     # webpages to scrape
+    #wepages = read_data(websites.csv)
     webpages = (
-        ("novi.digital", "https://novi.digital/"),
+        ("seoagency-uk.co.uk", "https://www.seoagency-uk.co.uk/"),
         ("passion.digital", "https://passion.digital/"),
         ("londonseo.io", "https://www.londonseo.io/"),
         ("seo.co.uk", "https://www.seo.co.uk/"),
-        ("seoagency-uk.co.uk", "https://www.seoagency-uk.co.uk/"),
+        ("novi.digital", "https://novi.digital/"),
         ("dubseo.co.uk", "https://www.dubseo.co.uk/"),
         ("seoworks.co.uk", "https://www.seoworks.co.uk/"),
         ("clickdo.co.uk", "https://www.clickdo.co.uk/"),
